@@ -1,0 +1,171 @@
+header {
+   background: white;
+   
+}
+
+h2 {
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    border-bottom: 1px solid #CCC;
+    padding-bottom: 3px;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float:right;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+section {
+    background-color: white;
+    width: 650px;
+    display: inline-block;
+    margin: 100px;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+
+#asideIndex {
+    background-color: white;
+    width: 270px;
+    display: inline-block;
+    text-align: center;
+    padding: 50px 10px 0px;
+    
+}
+
+#asideContact {
+    background-color: white;
+    width: 270px;
+    display: inline-block;
+    text-align: center;
+    padding: 50px 10px 0px;
+    
+}
+
+#asideAction {
+    background-color: white;
+    width: 270px;
+    display: inline-block;
+    text-align: center;
+    padding: 50px 10px 0px;
+    
+}
+
+#asidePortfolio {
+    background-color: white;
+    width: 270px;
+    display: inline-block;
+    text-align: center;
+    padding: 50px 10px 0px;
+    
+}
+
+#asideHidden {
+    background-color: white;
+    width: 270px;
+    display: inline-block;
+    text-align: center;
+    padding: 50px 10px 0px;
+    
+}
+
+footer {
+    height: 50px;
+    margin-top: -50px;
+    text-align: center;
+    color: white;
+    background-color: #333;
+    padding: 20px;
+    font-size: 12px;
+}
+
+.content {
+    min-height: 100%;
+}
+
+.content-inside {
+    padding: 20px;
+    padding-bottom: 50px;
+}
+
+.connect {
+    position: relative;
+    bottom: 45px;
+}
+
+.connectImages {
+    position: relative;
+    bottom: 45px;
+    width: 75px;
+    height: 75px;
+}
+
+.connectImages:hover {
+    box-shadow: 0 1px 8px black;  
+}
+
+p {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+#inputName {
+    width: 600px;
+    height: 30px;
+}
+
+#inputEmail {
+    width: 600px;
+    height: 30px;
+}
+
+#inputMessage {
+    width: 600px;
+    height: 230px;
+}
+
+#hidden {
+    text-align: center;
+    font-size: 25px;
+}
+
+#catGif {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+    
+@media screen and (max-width:980px) {
+}
+
+@media screen and (max-width:768px) {
+}
+
+@media screen and (max-width:640px) {
+}
