@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<!-- Tried to fix some code with solution because I used relative positioning with my original page. It works better than it did now. -->
 <html>
     <head>
         <title>
@@ -19,31 +20,26 @@
                 <li style="top:35px"><a class="active" href="index.html">About</a></li>
             </ul>
         </header>
-        <div class="content">
-            <div class="content-inside">
-        
-
-                <br><br><br><br>
-                <section class="w3-container">
+            <br><br><br><br>
+         <div id="main-container" class="container">
+                <section class="main-section">
                     <h2>About Me</h2>
-
                     <br>
-
                     <img src="assets/images/profile.jpg" alt="Profile Picture" width="200px" height="200px">
                     <p>
                         I am a student at the University of Richmond Coding Bootcamp. I have an advanced diploma from Midlothian High School. I was the president of Game Club my senior year and also the section leader for the trumpet section in marching band in my senior year as well. I have been working at Jersey Mike's for almost 2 years, and I am wanting a real job.
                     </p>
                 </section>
-                <!-- (This goes for all the aside tags in all the webpages.) I used relative positioning for all the aside tags, and I took it off for this. They don't line up correctly with out the relative positioning and I'm not sure how to fix it. -->
-                <aside id="asideIndex">
-                    <h2 class="connect">Connect With Me</h2>
+            <section class="sidebar">
+                <div id="connect">
+                    <h2>Connect With Me</h2>
                     <br>
                     <a href="https://github.com/NGeckle"><img class="connectImages" src="assets/images/github.png" alt="Github Icon"></a>
                     <a href="https://linkedin.com/in/nathaniel-geckle-47800b149"><img class="connectImages" src="assets/images/linkedin.png" alt="Github Icon"></a>
                     <a href="https://stackexchange.com/users/12796380/nathan-geckle"><img class="connectImages" src="assets/images/stack.png" alt="Github Icon"></a>
-                </aside>
             </div>
-        </div>
+            </section>
+         </div>
         <footer>
             &copy; Copyright 2018 Nathaniel Geckle
         </footer>

@@ -38,63 +38,29 @@ li a:hover:not(.active) {
     background-color: #4CAF50;
 }
 
-section {
-    background-color: white;
-    width: 650px;
-    display: inline-block;
-    margin: 100px;
-}
+
 
 html, body {
     height: 100%;
     margin: 0;
 }
 
-
-#asideIndex {
-    background-color: white;
-    width: 270px;
-    display: inline-block;
-    text-align: center;
-    padding: 50px 10px 0px;
-    
+.sidebar {
+    float: right;
+    width: 100%;
+    max-width: 270px;
+    padding: 30px;
+    margin-bottom: 20px;
+    background: #fff;
+    border: 1px solid #ddd;
 }
 
-#asideContact {
-    background-color: white;
-    width: 270px;
-    display: inline-block;
-    text-align: center;
-    padding: 50px 10px 0px;
-    
-}
-
-#asideAction {
-    background-color: white;
-    width: 270px;
-    display: inline-block;
-    text-align: center;
-    padding: 50px 10px 0px;
-    
-}
-
-#asidePortfolio {
-    background-color: white;
-    width: 270px;
-    display: inline-block;
-    text-align: center;
-    padding: 50px 10px 0px;
-    
-}
-
-#asideHidden {
-    background-color: white;
-    width: 270px;
-    display: inline-block;
-    text-align: center;
-    padding: 50px 10px 0px;
-    
-}
+.sidebar h2 {
+    padding-bottom: 20px;
+    margin-bottom: 15px;
+    line-height: 22px;
+    border-bottom: 2px solid #eee;
+  }
 
 footer {
     height: 50px;
@@ -104,6 +70,9 @@ footer {
     background-color: #333;
     padding: 20px;
     font-size: 12px;
+    padding: 30px 0;
+    clear: both;
+    border-top: 8px solid #333;
 }
 
 .content {
@@ -115,16 +84,15 @@ footer {
     padding-bottom: 50px;
 }
 
-.connect {
-    position: relative;
-    bottom: 45px;
+.connectImages {
+    width: 62px;
+    height: 62px;
+    margin-top: 8px;
+    margin-right: 5px;
 }
 
-.connectImages {
-    position: relative;
-    bottom: 45px;
-    width: 75px;
-    height: 75px;
+.connectImages:last-child {
+    margin-right: 0;
 }
 
 .connectImages:hover {
@@ -169,3 +137,25 @@ p {
 
 @media screen and (max-width:640px) {
 }
+
+.container {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    clear: both;
+    
+  }
+
+  #main-container {
+    padding-top: 130px;
+  }
+  
+  .main-section {
+    float: left;
+    width: 100%;
+    max-width: 650px;
+    padding: 30px;
+    margin: 0 0 40px;
+    background: #fff;
+    border: 1px solid #ddd;
+  }
